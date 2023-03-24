@@ -5,7 +5,7 @@
 # 打开软件的情况下,创建构型数（待完善）
 from common import tree, bus, icd_signal, project
 
-
+#
 def full_tree(project_name="项目名称", model="brief", product_name="成品",
               plug_name="Plug", icd_name="ICD", message_id="H"):
     # 创建项目

@@ -1,7 +1,7 @@
 """
 创建一条完整的构型数，包括所有的节点
 """
-
+#
 # 打开软件的情况下,创建构型数（待完善）
 from common import tree, bus, icd_signal, project
 

@@ -1,0 +1,6 @@
+2023-03-24 16:26:46.926 project.py[18] create_project -> Find Control Timeout(1s): {Name: '新建项目', ControlType: MenuItemControl}
+2023-03-24 16:27:13.608 utile.py[77] warning -> Find Control Timeout(1s): {Name: '好的 Enter', ControlType: ButtonControl}
+2023-03-24 16:27:15.830 tree.py[13] create_product -> Find Control Timeout(1s): {Name: '项目brief', ControlType: TreeItemControl}
+2023-03-24 16:30:50.988 utile.py[77] warning -> Find Control Timeout(1s): {Name: '好的 Enter', ControlType: ButtonControl}
+2023-03-24 16:31:21.662 bus.py[37] bus_add -> Find Control Timeout(1s): {Name: 'bus_1', ControlType: DataItemControl}
+2023-03-24 16:33:39.087 utile.py[77] warning -> Find Control Timeout(1s): {Name: '好的 Enter', ControlType: ButtonControl}

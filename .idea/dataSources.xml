@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="glo_search" uuid="a8d505de-0710-4bff-bb3d-0a9da4bee6d4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\pushiwei\Desktop\icd-test-tool\common\glo_search.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

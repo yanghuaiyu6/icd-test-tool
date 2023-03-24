@@ -1,5 +1,6 @@
 import allure
 from allure_commons.types import LinkType, Severity
+
 # from common.log import Logger
 
 # 打印日志
@@ -32,5 +33,5 @@ class Test_demo:
     @allure.step('测试的步骤')
     @allure.title('测试用例2')
     def test_demo2(self):
-        log.debug("测试BUG")
+        # log.debug("测试BUG")
         assert 10 == 11

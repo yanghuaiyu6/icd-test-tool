@@ -1,2 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Mon Mar 27 17:08:54 CST 2023","Mon Mar 27 17:09:09 CST 2023","14939","我是父套件","我是儿子套件","我是孙子套件","","","用例标题","我是description"
+"failed","Mon Mar 27 17:23:40 CST 2023","Mon Mar 27 17:23:44 CST 2023","4319","我是父套件","我是儿子套件","我是孙子套件","","","测试用例2",""
+"passed","Mon Mar 27 17:23:40 CST 2023","Mon Mar 27 17:23:40 CST 2023","0","我是父套件","我是儿子套件","我是孙子套件","","","用例标题","我是description"

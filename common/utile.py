@@ -4,7 +4,6 @@ import time
 import win32con
 import win32gui
 import uiautomation as auto
-# from testcase.test_demo import log
 
 
 # 置顶操作的窗口

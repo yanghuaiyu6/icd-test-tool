@@ -1,1 +1,1 @@
-{}
+{"d4bfe9772e826f71afe743d522c83f85":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"b7cf8c32e779d1b3","status":"broken","statusDetails":"LookupError: Find Control Timeout(10s): {Name: '取消 Enter', ControlType: ButtonControl}","time":{"start":1679908134455,"stop":1679908149394,"duration":14939}}]}}

@@ -1,1 +1,1 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","name":"packages","children":[]}
+{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","children":[{"name":"testcase.demo.test_demo1","children":[{"name":"用例标题","uid":"b7cf8c32e779d1b3","parentUid":"5b11bc3147c254a85c1cc72cb79b2ae4","status":"broken","time":{"start":1679908134455,"stop":1679908149394,"duration":14939},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":["我是tag"]}],"uid":"testcase.demo.test_demo1"}],"name":"packages"}

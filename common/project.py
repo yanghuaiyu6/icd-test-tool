@@ -58,7 +58,7 @@ def import_project(project_name):
 
 #  载入所有项目
 def import_project_all():
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist()
     while True:
         auto.MenuItemControl(Name="项目").Click()
         auto.MenuItemControl(Name='载入项目').Click()
@@ -72,7 +72,7 @@ def import_project_all():
 
 # 载入其他(输入地址有问题待完善)
 def import_other_project(address):
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist()
     auto.MenuItemControl(Name="项目").Click()
     time.sleep(1)
     auto.MenuItemControl(Name="载入其它").Click()
@@ -89,7 +89,7 @@ def import_other_project(address):
 
 # 项目合并(待完善)
 def project_merge(address):
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist("CCk")
     auto.MenuItemControl(Name="项目").Click()
     auto.MenuItemControl(Name="项目合并").Click()
     merge = auto.WindowControl(Name="项目合并")
@@ -113,20 +113,20 @@ def project_merge(address):
 
 # 切换项目
 def switch_items(project_name):
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist()
     auto.TabItemControl(Name=project_name).Click()
 
 
 # 重启软件
 def restart_project():
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist()
     auto.MenuItemControl(Name="项目").Click()
     auto.MenuItemControl(Name="重启软件").Click()
 
 
 # 关闭指定项目
 def closer_project(project_name):
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist()
     try:
         auto.TabItemControl(Name=project_name).Click()
     except LookupError:
@@ -138,7 +138,7 @@ def closer_project(project_name):
 
 # 关闭所有项目
 def closer_project_all():
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist()
     while True:
         auto.MenuItemControl(Name="项目").Click()
         auto.MenuItemControl(Name='关闭项目').Click()

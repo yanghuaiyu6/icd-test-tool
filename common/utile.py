@@ -5,6 +5,10 @@ import win32con
 import win32gui
 import uiautomation as auto
 
+# 设置ICD路径,根据自己的ICD地址修改路径
+ICD_NAME = "CC飞机飞管计算机全连接架构内总线数据流设计开发"
+ICD_PATH = r"C:\Users\WR\Desktop\ICMMain.exe.lnk"
+
 
 # 置顶操作的窗口
 def show_win(win_name):
@@ -21,7 +25,7 @@ def show_win(win_name):
 
 
 # 判断ICD软件窗口是否存在,没存在的话他的输入它exe存放地址
-def win_exist(win_name, start_address):
+def win_exist(win_name=ICD_NAME, path=ICD_PATH):
     try:
         # 切换到当前ICMMain应用，将窗口放于窗口前
         show_win(win_name)
@@ -29,7 +33,7 @@ def win_exist(win_name, start_address):
         print(ex)
         print("没有该窗口！软件没有启动！")
         # 启动ICMMain软件
-        os.startfile(start_address)
+        os.startfile(path)
         time.sleep(5)
         auto.ButtonControl(Name='取消').Click()
 
@@ -63,7 +67,7 @@ def close_ICD_app():
 # 启动软件
 def open_ICD_app():
     # 配置软件的启动地址，快捷方式
-    os.system(r"start C:\Users\pushiwei\Desktop\ICD本地更新版本.lnk")
+    os.system(ICD_PATH)
     time.sleep(5)
     # 关闭初打开软件弹出的项目窗口
     auto.ButtonControl(Name="取消").Click()

@@ -1,0 +1,8 @@
+2023-03-27 16:08:16.714 utile.py[69] open_ICD_app -> 2023-03-27 16:23:17.730 utile.py[73] open_ICD_app -> 2023-03-27 16:24:30.581 utile.py[73] open_ICD_app -> 2023-03-27 16:28:01.501 utile.py[73] open_ICD_app -> Find Control Timeout(3s): {Name: '取消', ControlType: ButtonControl}
+2023-03-27 16:28:14.570 tree.py[13] create_product -> Find Control Timeout(3s): {Name: '测试brief项目', ControlType: TreeItemControl}
+2023-03-27 16:28:18.955 tree.py[13] create_product -> Find Control Timeout(3s): {Name: '测试briefV20项目', ControlType: TreeItemControl}
+2023-03-27 16:28:29.584 tree.py[13] create_product -> Find Control Timeout(3s): {Name: '测试electric项目', ControlType: TreeItemControl}
+2023-03-27 16:28:34.353 tree.py[13] create_product -> 2023-03-27 16:34:07.980 utile.py[38] win_exist -> Find Control Timeout(10s): {Name: '取消', ControlType: ButtonControl}
+2023-03-27 16:34:20.345 tree.py[13] create_product -> Find Control Timeout(10s): {Name: '测试briefV20项目', ControlType: TreeItemControl}
+2023-03-27 16:34:32.627 tree.py[13] create_product -> Find Control Timeout(10s): {Name: '测试electric项目', ControlType: TreeItemControl}
+2023-03-27 16:34:44.887 tree.py[13] create_product -> 

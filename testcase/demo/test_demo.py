@@ -1,11 +1,6 @@
 import allure
 from allure_commons.types import LinkType, Severity
 
-# from common.log import Logger
-
-# 打印日志
-# log = Logger(log_level="DEBUG", project_name="test", log_name="log_test.txt",
-#              log_path=r"C:\Users\pushiwei\Desktop\icd-test-tool\log").get_logger()
 """
 使用案例案例
 """

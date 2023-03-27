@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"71115cc8f01c5a108892d6435e1247e8","name":"我是父套件","statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2}}]}
+{"total":2,"items":[{"uid":"71115cc8f01c5a108892d6435e1247e8","name":"我是父套件","statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2}},{"uid":"7d3977dcbf31acd3e26ecbe96342e45e","name":"testcase","statistic":{"failed":0,"broken":4,"skipped":0,"passed":0,"unknown":0,"total":4}}]}

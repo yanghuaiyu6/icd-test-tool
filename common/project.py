@@ -3,15 +3,16 @@ import string
 import sys
 import time
 import uiautomation as auto
-from common.utile import win_exist, delete_text, first_creat, warning
+from common.utile import win_exist, delete_text, warning, first_creat
 
-auto.SetGlobalSearchTimeout(1)
+# 设置全局超时时间
+auto.SetGlobalSearchTimeout(3)
 
 
 # 新建项目
 def create_project(project_name, model):
-    # 地址可以进行修改，对应不同的地方进行启动
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    # icd软件是否启动，可到util配置地址
+    win_exist()
     # first_creat()  # 第一次创建时使用，第一次启动会有提示
     # 点击菜单项目
     auto.MenuItemControl(Name="项目").Click()
@@ -49,7 +50,7 @@ def create_project(project_name, model):
 
 # 载入项目
 def import_project(project_name):
-    win_exist("CC飞机飞管计算机全连接架构内总线数据流设计开发", r"C:\Users\YANG\Desktop\ICMMain.lnk")
+    win_exist()
     auto.MenuItemControl(Name="项目").Click()
     auto.MenuItemControl(Name='载入项目').Click()
     auto.TreeItemControl(Name=project_name, foundIndex=1).DoubleClick()

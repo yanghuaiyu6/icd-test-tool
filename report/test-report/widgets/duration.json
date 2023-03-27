@@ -1,0 +1,1 @@
+[{"uid":"8dbc1d9c25f005c6","name":"用例标题","time":{"start":1679887088872,"stop":1679887088872,"duration":0},"status":"passed","severity":"blocker"},{"uid":"1838ca326d3bb6f7","name":"测试用例2","time":{"start":1679887088874,"stop":1679887088875,"duration":1},"status":"failed","severity":"normal"}]
